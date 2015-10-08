@@ -7,7 +7,7 @@ Only a few methods were utilized here, but if you need more, take a look at Riot
 
 Paste your own key in the APIConnection's key variable.
 
-To show you how I populate my own game class here is some sample code:
+To show you how I populate my own game class, here is some sample code:
 
         //get our summoner id for future api calls
         var connection = APIConnection()
