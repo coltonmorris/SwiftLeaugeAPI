@@ -10,7 +10,7 @@ import Foundation
 
 class APIConnection {
     var endpoint: String = "https://na.api.pvp.net"
-    var key: String = "api_key=bcab5026-6ebe-4420-80f7-aaf79cf2ac64"
+    var key: String = "api_key="
     
     func championData(championId: String) -> NSDictionary{
     // ChampionId is a string for simplicity.
