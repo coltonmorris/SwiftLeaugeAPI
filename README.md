@@ -16,7 +16,7 @@ To show you how I populate my own game class, here is some sample code:
         //get our recent games
         var jsonResult = connection.recentGames(summonerId)
         
-        //var summonerId : Int = jsonResult["summonerId"] as! Int
+        //parse json to get an array of game objects
         let games = jsonResult["games"] as! NSArray
         
         //create GameDoc objects from our GameData List
